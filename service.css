@@ -1,0 +1,73 @@
+﻿
+nav{
+	font-size:30px;
+	position:fixed;
+	width:100%;
+	background-color:transparent;
+
+}
+
+.para{
+	font-size:18px;
+	margin-top:20px;
+	font-style:italic;
+	background-color:Gray;
+	
+}
+ 
+/*service2*/
+
+
+div.gallery
+{
+    border:1px solid white;
+}
+div.gallery:hover
+{
+    border:1px solid black;
+}
+div.gallery img
+{
+    width:100%;
+    padding:auto;
+}
+div.desc
+{
+    text-align:center;
+    padding:10px;
+}
+*
+{
+    box-sizing:border-box;
+}
+
+.para
+{
+    text-align:right;
+}
+
+.responsive
+{
+    float:left;
+    width:24.9%;
+    padding:0 6px;
+}
+
+@media only screen and (max-width: 700px)
+{
+    .responsive
+    {
+        width:49%;
+        margin:6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px)
+{
+    .responsive
+    {
+        width:100%;
+    }
+}
+
+/*service2 end*/
